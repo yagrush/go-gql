@@ -13,9 +13,7 @@ import (
 )
 
 func main() {
-	// wd, _ := os.Getwd()
-
-	err := godotenv.Load( /*wd +*/ "../.env")
+	err := godotenv.Load(".env")
 
 	//もし err がnilではないなら、"読み込み出来ませんでした"が出力されます。
 	if err != nil {
