@@ -1,5 +1,7 @@
 # golangでgithub GraphQL APIにクエリするサンプル。
 
+## 外部OSSを使用せず、生のHttpRequestで実現する。
+
 githubが公開しているgqlエンドポイント https://api.github.com/graphql に、
 
 `cmd/main.go`
